@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO EDUCATIVO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: purple;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1em;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        /* Submenú */
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            min-width: 150px;
+            border-radius: 4px;
+        }
+        .submenu a {
+            padding: 0.5em 1em;
+        }
+        nav ul li:hover .submenu {
+            display: block;
+        }
+        .container {
+            padding: 2em;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 2em auto;
+        }
+        .contact-form div {
+            margin-bottom: 1em;
+        }
+        .p1{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <p class="p1">PLATAFORMA INTERACTIVA PARA ESTUDIANTES DE TODOS LOS NIVELES</p>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través del siguiente formulario:</p>
+                <form action="/send_message" method="post">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input id="nombre" type="text" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input id="edad" type="number" min="1" max="99" required>
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo" name="sexo">
+                            <option value="m">Masculino</option>
+                            <option value="f">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="obs">Comentario:</label>
+                        <textarea id="obs" name="obs" placeholder="Escribe aquí tu comentario"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Resetear</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Proyecto Educativo Grupo 10. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

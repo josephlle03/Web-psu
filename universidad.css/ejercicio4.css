@@ -1,0 +1,84 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #c9d0f7, #88b5f0);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para la cabecera */
+.header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenido principal */
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Estilos para la sección */
+.section {
+    padding: 30px;
+}
+
+/* Estilos para el grupo de inputs */
+.input-group {
+    margin-bottom: 30px;
+}
+
+.input-group p {
+    margin-bottom: 10px;
+}
+
+.input-group input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Estilos para el grupo de botones */
+.button-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button-group button[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFC107;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-group button[type="button"]:hover {
+    background-color: #FFA07A;
+}
+
+/* Estilos para la respuesta */
+.respuesta {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}

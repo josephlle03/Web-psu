@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Primaria</title>
+    <link rel="stylesheet" href="../css/primaria.css">
+</head>
+<body>
+    <div class="container">
+        <header class="titulo">
+            <h1>Ejercicios De Primaria</h1>
+        </header>
+        
+        <nav class="navbar">
+            <button class="nav-button" onclick="showSection('secuencias')">Ejercicios Básicos de Secuencias</button>
+            <button class="nav-button" onclick="showSection('comparaciones')">Lógica de Comparaciones</button>
+            <button class="nav-button" onclick="showSection('condicionales')">Introducción a Condicionales</button>
+        </nav>
+       
+        <section id="secuencias" class="section">
+            <header class="titulo2">
+                <h2>Ejercicios Básicos de Secuencias</h2>
+            </header>
+            <header class="parrafo">
+                <p>Completar secuencias numéricas</p>
+            </header>
+            <ul class="lista">
+                <li><a href="./ejercicio 1 p.html">Ejercicio 1</a></li>
+                <p>¿Qué número sigue en la secuencia 2, 4, 6, ...?</p>
+                <li><a href="./ejercicio 2 p.html">Ejercicio 2</a></li>
+                <p>¿Cuál es el patrón en la secuencia 5, 10, 15, ...?</p>
+                <li><a href="./ejercicio 3 p.html">Ejercicio 3</a></li>
+                <p>¿Qué número sigue en la secuencia 10, 20, 30, ...?</p>
+                <li><a href="./ejercicio 4 p.html">Ejercicio 4</a></li>
+                <p>¿Cuál es el patrón en la secuencia 2, 4, 8, 16, ...?</p>
+            </ul>
+        </section>
+        
+        <section id="comparaciones" class="section" style="display: none;">
+            <header>
+                <h2>Lógica de Comparaciones</h2>
+            </header>
+            <header class="parrafo2">
+                <p>Identificar el mayor o menor número</p>
+            </header>
+            <ul class="lista2">
+                <li><a href="./ejercicio 5 p.html">Ejercicio 1</a></li>
+                <p>¿Cuál es mayor, 8 o 5?</p>
+                <li><a href="./ejercicio 6 p.html">Ejercicio 2</a></li>
+                <p>¿Quién es mayor, Juan de 12 años o María de 14 años?</p>
+                <li><a href="./ejercicio 7 p.html">Ejercicio 3</a></li>
+                <p>¿Quién es más joven, Pedro de 9 años o Laura de 7 años?</p>
+            </ul>
+        </section>
+        
+        <section id="condicionales" class="section" style="display: none;">
+            <header>
+                <h2>Introducción a Condicionales</h2>
+            </header>
+            <header class="parrafo3">
+                <p>Decisiones simples</p>
+            </header>
+            <ul class="lista3">
+                <li><a href="./ejercicio 8 p.html">Ejercicio 1</a></li>
+                <p> Si hace sol, ¿qué debes llevar? </p>
+                <li><a href="./ejercicio 9 p.html">Ejercicio 2</a></li>
+                <p> ¿Qué tiene más superficie, una mesa de 1 m² o una alfombra de 2 m²? </p>
+                <li><a href="./ejercicio 10 p.html">Ejercicio 3</a></li>
+                <p> ¿Cuál es menor, un jardín de 10 m² o un balcón de 5 m²? </p>
+                <li><a href="./ejercicio 11 p.html">Ejercicio 4</a></li>
+                <p> ¿Qué recipiente puede contener más líquido, un vaso de 250 ml o una botella de 1 litro? </p>
+            </ul>
+        </section>
+
+        <div class="button-container">
+            <button><a href="../index.html">Volver al Inicio</a></button>
+        </div>
+    </div>
+    <script src="../js/fondo3.js"></script>
+    <script>
+        function showSection(sectionId) {
+            // Ocultar todas las secciones
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+            // Mostrar la sección seleccionada
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Universidad</title>
+    <link rel="stylesheet" href="../css/universidad.css">
+   
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ejercicios de Universidad</h1>
+        </header>
+
+        <div class="buttons-container">
+            <button onclick="showSection('calc-section')">Calculadora Interactiva</button>
+            <button onclick="showSection('conv-section')">Conversiones de Números</button>
+            <button onclick="showSection('text-section')">Análisis de Texto</button>
+            <button onclick="showSection('arr-section')">Manejo de Arreglos</button>
+            <button onclick="showSection('all-sections')">Mostrar Todo</button>
+        </div>
+
+        <section id="calc-section" class="exercise-section calc-section">
+            <h2>Calculadora Interactiva</h2>
+            <p>Crear una calculadora que realice operaciones básicas</p>
+            <div class="exercise-item">
+                <ul>
+                    <li><a href="./ejercicio 1 u.html">Ejercicio 1</a></li>
+                    <p>Ejemplo: Sumar, restar, multiplicar y dividir dos números</p>
+                </ul>
+            </div>
+        </section>
+
+        <section id="conv-section" class="exercise-section conv-section">
+            <h2>Conversiones de Números</h2>
+            <div class="exercise-item">
+                <ul>
+                    <li><a href="../pages/ejercicio 2 u.html">Ejercicio 1</a></li>
+                    <p>Convertir un número binario a hexadecimal y viceversa</p>
+                    <li><a href="../pages/ejercicio 4 u.html">Ejercicio 2</a></li>
+                    <p>Convertir un número binario a decimal y viceversa</p>
+                </ul>
+            </div>
+        </section>
+
+        <section id="text-section" class="exercise-section text-section">
+            <h2>Análisis de Texto</h2>
+            <p>Contar caracteres, vocales, signos, espacios, palabras y dígitos en un texto</p>
+            <div class="exercise-item">
+                <ul>
+                    <li><a href="universidad_1.html">Ejercicio 1</a></li>
+                    <p>Ingresar un párrafo y obtener el análisis del texto</p>
+                    <li><a href="universidad_2.html">Ejercicio 2</a></li>
+                    <p>Invertir una cadena de texto</p>
+                    <li><a href="universidad_3.html">Ejercicio 3</a></li>
+                    <p>Dadas dos frases, indicar cuál tiene más palabras</p>
+                </ul>
+            </div>
+        </section>
+
+        <section id="arr-section" class="exercise-section arr-section">
+            <h2>Manejo de Arreglos</h2>
+            <div class="exercise-item">
+                <ul>
+                    <li><a href="../pages/ejercicio10.html">Ejercicio 1</a></li>
+                    <p>Dado un arreglo, obtener los números primos</p>
+                    <li><a href="../pages/ejercicio11.html">Ejercicio 2</a></li>
+                    <p>Dado un arreglo, obtener los números perfectos</p>
+                    <li><a href="../pages/ejercicio12.html">Ejercicio 3</a></li>
+                    <p>Dado un arreglo de notas obtener el promedio y la moda</p>
+                </ul>
+            </div>
+        </section>
+
+        <div class="button-container">
+            <button><a href="../index.html">Volver al Inicio</a></button>
+        </div>
+    </div>
+    <script>
+        // Function to show a specific section and hide others
+        function showSection(sectionId) {
+            // Get all sections
+            const sections = document.querySelectorAll('.exercise-section');
+
+            // Hide all sections
+            sections.forEach(section => {
+                if (sectionId === 'all-sections') {
+                    section.style.display = 'block'; // Show all sections
+                } else {
+                    section.style.display = 'none'; // Hide all sections
+                }
+            });
+
+            // Show the specific section if not showing all sections
+            if (sectionId !== 'all-sections') {
+                document.getElementById(sectionId).style.display = 'block';
+            }
+        }
+
+        // Show all sections initially (optional)
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('all-sections');
+        });
+    </script>
+</body>
+</html>

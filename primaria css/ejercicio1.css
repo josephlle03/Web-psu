@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: linear-gradient(to bottom right, #f5f5f5, #cd80f1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #0e0101;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    background-color: #bf98ffce;
+    border-radius: 8px;
+    box-shadow: 0 4px 40px rgba(24, 8, 168, 0.904);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    right: 210px;
+    top: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;  
+    
+}
+
+.buttons button {
+    background-color: violet; /* Color de fondo de los botones */
+    border: 50px;
+    color: rgb(6, 11, 39);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 13px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.buttons button:hover {
+    background-color: #c3f0c3; /* Color de fondo en hover */
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: purple; /* Color de fondo de los botones */
+    border: none;
+    color: rgb(223, 14, 14);
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions button:hover {
+    background-color: #0c0833f3; /* Color de fondo en hover */
+}
+
+.respuesta {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #87838d;
+    position: relative; 
+    padding: 7px;
+    background-color: #b0e4f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.425);
+ 
+}
+.xd {
+    position: relative;
+    left: 450px;
+    bottom: 180px;
+}
+.actions a{
+    color: white;
+    text-decoration: none;
+}

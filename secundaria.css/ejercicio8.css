@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.section {
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group p {
+    margin-bottom: 10px;
+}
+
+.input-group input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-group button[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-group button[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+.respuesta {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Agregué este estilo para dar un diseño más atractivo */
+.main {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.header {
+    border-radius: 20px 20px 0 0;
+}
+
+.section {
+    padding: 30px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+.button-group {
+    margin-top: 30px;
+}
+
+.respuesta {
+    margin-top: 30px;
+}
+
+/* Agregué este estilo para dar un diseño más moderno */
+
+
+.button-group button[type="button"] {
+    background-color: #ff6f61;
+}
+
+.button-group button[type="button"]:hover {
+    background-color: #FFA07A;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

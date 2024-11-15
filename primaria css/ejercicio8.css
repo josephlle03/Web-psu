@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:linear-gradient(to bottom right, #f0b4de, #cd80f1);
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Fuente amigable para niños */
+}
+
+header h1 {
+    position: relative;
+    left: 200px;
+    bottom: 180px;
+    font-size: 35px;
+    color: #7708a3f5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bf98ffce;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 40px rgba(7, 99, 7, 0.822);
+    position: relative;
+    right: 300px;
+    top: 15px;
+    max-width: 450px;
+}
+
+button{
+    background-color: violet;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.buttons button:hover {
+    background-color: #00bfff; /* Color azul más vibrante */
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button button {
+    background-color: #ffa07a; /* Color coral claro */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button button a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-button button:hover {
+    background-color: #ff6347; /* Color coral más vibrante */
+}
+
+.respuesta {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../universidad.css/ejercicio5.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio</h1>
+        <p> Contar caracteres, vocales, sinos, espacios, palabras y dígitos en un texto </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contador de caracteres</h2>
+            <input type="text" id="text" placeholder="Ingrese texto...">
+            <button id="btnCount" onclick="universidad.ejercicio_u1()">Contar</button>
+        </section>
+
+        <section>
+            <h2>Resultados</h2>
+            <ul>
+                <li>
+                    <p>Caracteres: <input type="text" id="txtCharacters" readonly></p>
+                </li>
+                <li>
+                    <p>Vocales: <input type="text" id="txtVowels" readonly></p>
+                </li>
+                <li>
+                    <p>Consonantes: <input type="text" id="txtConsonants" readonly></p>
+                </li>
+                <li>
+                    <p>Espacios: <input type="text" id="txtSpaces" readonly></p>
+                </li>
+                <li>
+                    <p>Palabras: <input type="text" id="txtWords" readonly></p>
+                </li>
+                <li>
+                    <p>Dígitos: <input type="text" id="txtDigits" readonly></p>
+                </li>
+            </ul>
+        </section>
+
+        <div class="button-container">
+            <button><a href="./universidad.html">Volver al Inicio</a></button>
+        </div>
+    </main>
+
+    <script src="../js/universidad.js"></script>
+</body>
+
+</html>

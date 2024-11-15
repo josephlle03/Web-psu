@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background:linear-gradient(to bottom right, #f0b4de, #cd80f1);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+}
+
+
+h1 {
+    color: #8b07ac; /* Color atractivo */
+    font-size: 40px;
+}
+
+main {
+    background-color: #bf98ffce;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(18, 153, 6, 0.466);
+    padding: 50px;
+    width: 90%;
+    max-width: 500px; 
+    position: relative;
+    bottom: 200px;
+    right: 330px;
+    top: 30px;/* Ancho máximo para que no sea demasiado grande */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: violet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 60px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1491e1; /* Cambio de color al pasar el ratón */
+}
+
+a {
+    color: rgb(238, 231, 231);
+    text-decoration: none;
+}
+
+.respuesta {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #bcbceb; /* Color de fondo de respuesta */
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+

@@ -1,0 +1,119 @@
+body{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+main {
+    flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
+}
+.head{
+    justify-content: center;
+    text-align: center;
+    background-color: #9097f0;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    width: 101%;
+    right: 8px;
+    color: white;
+}
+.info{
+    text-align: justify;
+    font-size: 30px;
+    width: 1200px;
+    position: relative;
+    left: 150px;
+    color: #131212;
+    background-color: #ebf9fa;
+    border: 10px solid #b897d6;
+}
+img{
+    width: 200px;
+  }
+.programers{
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.img1{
+    width: 300px;
+    position: relative;
+    left: 150px;
+    bottom: 380px;
+}
+.img3{
+    width: 168px;
+    position: relative;
+    left: 800px;
+    bottom: 1140px;
+}
+.img0{
+    position: relative;
+    width: 200px;
+    right: 100px;
+  }
+  .img2{
+    position: relative;
+    bottom: 756px;
+    left: 500px;
+  }
+  .img4{
+    position: relative;
+    bottom: 1130px;
+    right: 100px;
+  }
+.par{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 100px;
+    background-color: blueviolet;
+    width: 200px;
+    text-align: center;
+}
+.par1{
+    color: white;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    bottom: 374px;
+    left: 200px;
+}
+.par2{
+    color: white;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    bottom: 756px;
+    left: 500px;
+}
+.par3{
+    color: white;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    position: relative;
+    bottom: 1140px;
+    width: 200px;
+    left: 785px;
+}
+.par4{
+    color: white;
+    font-size: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    position: relative;
+    bottom: 1140px;
+    width: 200px;
+    right: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}

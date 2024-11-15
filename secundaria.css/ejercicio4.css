@@ -1,0 +1,87 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: black; /* Color de texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #333;
+    position: relative;
+    bottom: 200px;
+}
+
+/* Estilo del main */
+main {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    position: relative;
+    right: 500px;
+}
+
+/* Estilo de los grupos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Estilo de los inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #ff6f61;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    background-color: #e55b50;
+    color: white;
+}
+
+/* Estilo del contenedor de respuesta */
+.respuesta {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eaf4ff; /* Fondo azul claro */
+    border: 1px solid #b2d4ff; /* Borde azul claro */
+    border-radius: 5px;
+    text-align: center;
+}

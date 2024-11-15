@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar Palabra</title>
+    <style>
+        /* Estilos opcionales para mejorar la presentación */
+        #palabra {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        #resultado {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juego de Adivinar Palabra</h1>
+    <div id="palabra"></div>
+    <div>Intentos restantes: <span id="intentos-restantes"></span></div>
+    <div>Letras utilizadas: <span id="letras"></span></div>
+    <div id="resultado"></div>
+    <div id="botones"></div>
+    <button type="reset">borrar</button>
+
+    <script src="../js/secundaria.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            secundaria.ejercicio9();
+        });
+    </script>
+</body>
+</html>

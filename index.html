@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAGINA DE INICIO </title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="nav1"> <div class="container">
+      <h1>DESARROLLO DE EJERCICIOS DE LÓGICA INTERACTIVOS</h1>
+      <select id="opciones" name="opciones" onchange="redirigirPagina()">
+        <option value="" disabled selected hidden>SELECCIONA UN NIVEL</option>
+        <option value="/pages/primaria.html">Primaria</option>
+        <option value="/pages/secundaria.html">Secundaria</option>
+        <option value="/pages/universidad.html">Universidad</option>
+    </select>
+
+<script>
+    function redirigirPagina() {
+            const select = document.getElementById("opciones");
+            const pagina = select.value;
+
+            if (pagina) {  // Solo redirige si se ha seleccionado una opción válida
+                window.location.href = pagina;
+            }
+    }
+</script>
+  </div>
+  <div class="container">
+    <a href="/contacto.html">CONTACTO</a>
+    <a href="/programadores.html">PROGRAMADORES</a> 
+  </div>   
+  <img class="img1" src="/img/Imagen de WhatsApp 2024-11-04 a las 23.32.57_b3cc65de.jpg" alt="">
+</nav>
+  
+
+  <script src="js/fondo.js"></script>
+</body>
+</html>
